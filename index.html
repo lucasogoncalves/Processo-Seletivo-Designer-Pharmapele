@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Pharmapele — Sistema de Campanha</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início">
+      <span class="brand-name">Pharmapele</span>
+      <span class="brand-label">Apresentação de campanha</span>
+    </a>
+    <nav class="case-tabs" id="case-product-tabs" aria-label="Selecionar fragrância"></nav>
+    <a class="header-scope-link" href="#case">Ver campanha</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">Processo seletivo · Designer 2026</p>
+        <h1>Quatro fragrâncias.<br>Um sistema de campanha.</h1>
+        <p class="hero-intro">Uma visão comparativa dos entregáveis desenvolvidos para BREEZE, LOVELY, CHIC e GLOW. Navegue por formato, compare as direções visuais e amplie cada peça.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#case">Explorar os cases</a>
+          <a class="button button-secondary" href="#visao-geral">Visão geral</a>
+        </div>
+      </div>
+      <div class="hero-products" id="hero-products" aria-label="Produtos da campanha"></div>
+    </section>
+
+    <section class="scope" id="visao-geral">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Visão geral da linha</p>
+          <h2>Quatro universos conectados pelo azul Pharmapele</h2>
+        </div>
+        <p>Os quatro KVs da abertura apresentam variedade e unidade. A partir daqui, cada fragrância é analisada como um case completo.</p>
+      </div>
+      <div class="scope-summary">
+        <div><strong>04</strong><span>fragrâncias</span></div>
+        <div><strong>07</strong><span>entregáveis por produto</span></div>
+        <div><strong>28</strong><span>peças no sistema</span></div>
+      </div>
+    </section>
+
+    <section class="workspace" id="case">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Cases por fragrância</p>
+          <h2>Da referência ao sistema visual</h2>
+        </div>
+        <p>Selecione uma fragrância para acompanhar a origem das ideias e a coerência entre todos os seus desdobramentos.</p>
+      </div>
+      <div class="workspace-view" id="workspace-view"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Pharmapele · Processo seletivo Designer 2026</p>
+    <p>Apresentação local em HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title">
+    <div class="lightbox-toolbar">
+      <div>
+        <span id="lightbox-product"></span>
+        <h2 id="lightbox-title"></h2>
+        <p id="lightbox-meta"></p>
+      </div>
+      <button class="icon-button" id="lightbox-close" type="button" aria-label="Fechar visualização">×</button>
+    </div>
+    <div class="lightbox-stage">
+      <button class="lightbox-nav previous" id="lightbox-prev" type="button" aria-label="Imagem anterior">‹</button>
+      <img id="lightbox-image" src="" alt="">
+      <button class="lightbox-nav next" id="lightbox-next" type="button" aria-label="Próxima imagem">›</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
