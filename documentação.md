@@ -334,7 +334,7 @@ Cada produto recebeu sete peças:
 6. lâmina A4 frente, 2480 x 3508 px;
 7. lâmina A4 verso, 2480 x 3508 px.
 
-Foram organizadas 28 peças finais, posteriormente transferidas para as pastas individuais de cada fragrância dentro de `Processo Seletivo`. Os arquivos brutos das 24 novas gerações foram preservados com o sufixo `source` para permitir comparação e recortes alternativos.
+Foram organizadas 28 peças finais, posteriormente transferidas para as pastas individuais de cada fragrância dentro de `Processo Seletivo Designer Pharmapele`. Os arquivos brutos das 24 novas gerações foram preservados com o sufixo `source` para permitir comparação e recortes alternativos.
 
 ### Limitações e uso recomendado
 
@@ -342,7 +342,7 @@ As peças são referências de composição destinadas à reconstrução no Phot
 
 ## 10. Reorganização dos arquivos para reconstrução
 
-As pastas `BREEZE`, `CHIC`, `GLOW` e `LOVELY` foram retiradas de `Processo Seletivo/pesquisa` e posicionadas diretamente em `Processo Seletivo`.
+As pastas `BREEZE`, `CHIC`, `GLOW` e `LOVELY` foram retiradas de `Processo Seletivo Designer Pharmapele/pesquisa` e posicionadas diretamente em `Processo Seletivo Designer Pharmapele`.
 
 Cada fragrância passou a seguir a mesma estrutura:
 
@@ -365,7 +365,7 @@ Foi criada uma página estática para relacionar os entregáveis do briefing com
 - imagens carregadas diretamente das pastas de cada fragrância;
 - nenhuma biblioteca externa, servidor, processo de build ou conexão com a internet.
 
-O arquivo de entrada é `Processo Seletivo/index.html` e pode ser aberto diretamente no navegador por duplo clique.
+O arquivo de entrada é `Processo Seletivo Designer Pharmapele/index.html` e pode ser aberto diretamente no navegador por duplo clique.
 
 ### Recursos da interface
 
@@ -432,3 +432,4 @@ Cada case segue a sequência:
 7. navegação para a fragrância anterior ou seguinte.
 
 Essa organização evidencia o caminho entre pesquisa, interpretação e desdobramento, mantendo os sete entregáveis da mesma fragrância visíveis como um único sistema visual.
+
