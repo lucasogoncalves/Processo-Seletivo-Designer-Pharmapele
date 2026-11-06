@@ -2,7 +2,7 @@
 
 ## Escopo desta fase
 
-Criar uma proposta visual de campanha e seus principais desdobramentos. A landing page está temporariamente fora do escopo.
+Criar uma proposta visual de campanha e seus principais desdobramentos, incluindo o layout de uma landing page de lançamento para desktop e mobile.
 
 ## Objetivo
 
@@ -60,23 +60,40 @@ Os produtos são destinados ao corpo e ao cabelo. A campanha deve apresentá-los
 - Trabalhar ambientação, atmosfera, sensorialidade e direção de arte.
 - Valorizar frascos, fragrâncias e o universo visual da linha.
 
-### 3. Redes sociais
+### 3. Landing page para o site
+
+- Criar o layout em PNG de uma landing page de lançamento para a linha de Body Splashes.
+- Desenvolver versões desktop e mobile.
+- A landing page deve contemplar, no mínimo:
+  - banner principal / hero section;
+  - apresentação da linha;
+  - diferenciais e benefícios;
+  - destaque para os produtos;
+  - apelo sensorial e conceito da campanha;
+  - chamada para compra / CTA;
+  - seção institucional ou argumento de marca, se julgado pertinente.
+- A proposta deve manter consistência visual com o KV da campanha.
+
+#### Critérios específicos de avaliação da landing page
+
+- Hierarquia visual.
+- Experiência de navegação.
+- Organização das informações.
+- Consistência com o KV da campanha.
+- Clareza comercial.
+
+### 4. Redes sociais
 
 - 1 post de feed: 1080 x 1350 px.
 - 1 story: 1080 x 1920 px.
 - 1 peça extra de livre escolha. Opções: carrossel com capa e uma tela interna, anúncio, post promocional, teaser ou outro formato coerente.
 
-### 4. Lâmina de varejo
+### 5. Lâmina de varejo
 
 - Formato: A4, frente e verso, para impressão.
 - Público: consumidor final.
 - Conteúdo sugerido: visão comercial da linha, argumentos de venda, benefícios, destaque dos produtos e chamada promocional ou institucional.
 - Preparação recomendada: CMYK, sangria e margens de segurança.
-
-## Fora do escopo desta fase
-
-- Landing page desktop.
-- Landing page mobile.
 
 ## Entrega e organização
 
