@@ -1,1 +1,5 @@
-O PDF de apresentação será gerado a partir da página index.html após a validação dos entregáveis.
+O arquivo Pharmapele_Apresentacao_Projeto.pdf foi gerado a partir de uma apresentação editorial criada especialmente para o formato impresso.
+
+Formato: A4 vertical
+Total: 16 páginas
+Conteúdo: contexto do projeto, visão do sistema, KVs e desdobramentos de campanha para os quatro produtos.

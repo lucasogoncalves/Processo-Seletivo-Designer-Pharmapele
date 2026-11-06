@@ -3,7 +3,7 @@ PHARMAPELE - CAMPANHA DEO HAIR AND BODY SPLASHES
 Estrutura da entrega
 
 00_APRESENTACAO
-Reservada para o PDF de apresentação do projeto, que será incluído na etapa final.
+PDF editorial do projeto, criado especialmente para apresentação e organizado em 16 páginas A4.
 
 01_FINAIS_PARA_AVALIACAO
 Arquivos organizados por fragrância, com KVs, peças sociais, lâmina A4, landing page e mockup.
