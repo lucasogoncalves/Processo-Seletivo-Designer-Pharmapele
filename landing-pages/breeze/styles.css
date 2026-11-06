@@ -142,18 +142,19 @@ footer > a { justify-self: end; font-size: 9px; font-weight: 800; letter-spacing
 }
 
 @media (max-width: 720px) {
-  .site-header { padding: 22px 20px; }
+  .site-header { gap: 12px; padding: 22px 20px; }
   .brand-name { font-size: 27px; }
-  .header-cta { padding: 10px 13px; font-size: 8px; }
-  .hero { min-height: 860px; }
-  .hero-photo { object-position: 67% center; }
-  .hero-scrim { background: linear-gradient(180deg, rgba(5,38,35,.22), rgba(7,43,40,.35) 38%, rgba(7,42,38,.94) 76%); }
-  .hero-copy { left: 20px; right: 20px; top: auto; bottom: 65px; width: auto; transform: none; }
-  .hero h1 { font-size: clamp(74px, 25vw, 108px); }
-  .hero-tagline { margin: 24px 0 14px; }
-  .hero-lead { max-width: 94%; font-size: 17px; }
-  .hero-product { right: -17px; bottom: 168px; width: 95px; height: 430px; opacity: .95; }
-  .product-orbit { width: 265px; }
+  .header-cta { padding: 10px 12px; font-size: 8px; white-space: nowrap; }
+  .hero { min-height: max(100svh, 760px); }
+  .hero-photo { object-position: 64% 24%; }
+  .hero-scrim { background: linear-gradient(180deg, rgba(5,38,35,.06) 0%, rgba(7,43,40,.15) 42%, rgba(7,42,38,.82) 63%, rgba(7,42,38,.98) 82%); }
+  .hero-copy { left: 20px; right: 20px; top: auto; bottom: 28px; width: auto; transform: none; }
+  .hero-copy .eyebrow { margin-bottom: 14px; font-size: 9px; letter-spacing: .2em; }
+  .hero h1 { font-size: clamp(56px, 17.5vw, 70px); line-height: .86; letter-spacing: -.065em; }
+  .hero-tagline { margin: 18px 0 12px; font-size: 10px; letter-spacing: .3em; }
+  .hero-lead { max-width: 100%; margin-bottom: 22px; font-size: 16px; line-height: 1.42; }
+  .hero .button { min-width: 0; padding: 14px 18px; }
+  .hero-product { display: none; }
   .hero-index, .scroll-hint { display: none; }
   .section { padding: 80px 20px; }
   .intro { display: block; min-height: auto; }
