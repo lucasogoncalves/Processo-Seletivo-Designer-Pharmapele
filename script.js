@@ -5,6 +5,13 @@ const products = [
   { id: "GLOW", accent: "#FFC391", panel: "#812C18", concept: "Alegre & radiante", reference: "Marc Jacobs Daisy", mood: "Solar · gráfico · espontâneo", elements: "Céu azul, margaridas, papel e campo", description: "Otimismo com acabamento editorial: fotografia documental, cores francas e formas artesanais inspiradas em pétalas.", extraction: "A direção incorpora o céu azul, o campo aberto, a espontaneidade entre amigas, o branco das margaridas e a energia de registros analógicos com enquadramentos imperfeitos.", references: ["referencia (1).jpg", "referencia (5).jpg", "referencia (9).jpg", "referencia (14).jpg", "referencia (18).jpg", "referencia (19).jpg"] }
 ];
 
+const productNotes = {
+  BREEZE: "Busquei a sensação de respirar fundo perto do mar: movimento, luz e leveza antes mesmo de falar sobre fragrância.",
+  LOVELY: "Troquei a delicadeza contemplativa por uma feminilidade social e espontânea, construída por amizade, flash e movimento.",
+  CHIC: "A elegância apareceu menos como luxo ostensivo e mais como cuidado, intimidade e conexão entre gerações.",
+  GLOW: "Quis preservar a alegria sem tornar a campanha infantil: luz natural, gestos espontâneos e acabamento editorial."
+};
+
 const commonDeliverables = [
   { id: "kv-a", group: "kv", title: "KV lifestyle", meta: "Formato vertical", files: { BREEZE: "01-kv-a-lifestyle-1080x1350.png", LOVELY: "01-kv-a-lifestyle-1080x1350.png", CHIC: "01-kv-a-lifestyle-1080x1350.png", GLOW: "01-kv-a-lifestyle-1080x1350.png" } },
   { id: "kv-b", group: "kv", title: "KV conceitual", meta: "Formato vertical", files: { BREEZE: "02-kv-b-conceitual-1080x1350.jpg", LOVELY: "02-kv-b-conceitual-1080x1350.jpg", CHIC: "02-kv-b-conceitual-1080x1350.jpg", GLOW: "02-kv-b-conceitual-1080x1350.png" } },
@@ -47,10 +54,12 @@ function campaignMarkup(product) {
       <nav class="case-tabs campaign-tabs" aria-label="Selecionar fragrância">${products.map(item => `<button class="case-tab ${item.id === selectedProduct ? "active" : ""}" type="button" style="--tab-color:${item.accent}; --tab-accent:${item.panel}; --tab-text:${item.panel}" data-select-product="${item.id}" ${item.id === selectedProduct ? 'aria-current="true"' : ""}>${item.id}</button>`).join("")}</nav>
       <div><p class="eyebrow">Inspirado em:</p><h3>${product.reference}</h3><p>${product.description}</p></div>
       <div class="campaign-meta"><div><span>Conceito</span><strong>${product.concept}</strong></div><div><span>Atmosfera</span><strong>${product.mood}</strong></div><div><span>Elementos</span><strong>${product.elements}</strong></div></div>
+      <aside class="designer-note designer-note-product"><span>Nota do designer</span><p>${productNotes[product.id]}</p></aside>
       <div class="reference-block"><div class="reference-heading"><strong>Referências da pesquisa</strong><span>${product.references.length} frames usados para orientar atmosfera, luz e composição</span></div><div class="reference-gallery">${product.references.map((file, index) => `<figure><img src="${product.id}/referencia/${file}" alt="Referência visual ${index + 1} da pesquisa de ${product.id}" loading="lazy"><figcaption>Referência ${String(index + 1).padStart(2, "0")}</figcaption></figure>`).join("")}</div></div>
     </div>
     <div class="reference-extraction" style="--accent:${product.accent}"><span>O que foi extraído da referência</span><p>${product.extraction}</p></div>
-    <div class="campaign-groups">${groups.map(group => { const items = available.filter(item => item.group === group.id); return items.length ? `<section class="campaign-group"><div class="campaign-group-heading"><h4>${group.title}</h4><span>${group.description}</span></div><div class="campaign-group-grid" style="--columns:${group.columns}">${items.map(item => `<figure class="campaign-item">${artButton(product, item)}<figcaption><strong>${item.title}</strong><span>${item.meta}</span></figcaption></figure>`).join("")}</div></section>` : ""; }).join("")}</div>
+    <aside class="designer-note designer-note-process"><span>Do estudo à peça</span><p>As primeiras explorações pareciam campanhas genéricas de perfumaria. A virada aconteceu quando passei a pensar em relações humanas, materiais e gestos — não apenas em cenários bonitos.</p></aside>
+    <div class="campaign-groups">${groups.map(group => { const items = available.filter(item => item.group === group.id); return items.length ? `<section class="campaign-group">${group.id === "a4" ? `<aside class="designer-note designer-note-technical"><span>Solução técnica</span><p>Construí as lâminas como um sistema modular para adaptar imagens, paleta e conteúdo às quatro fragrâncias sem perder hierarquia e consistência.</p></aside>` : ""}<div class="campaign-group-heading"><h4>${group.title}</h4><span>${group.description}</span></div><div class="campaign-group-grid" style="--columns:${group.columns}">${items.map(item => `<figure class="campaign-item">${artButton(product, item)}<figcaption><strong>${item.title}</strong><span>${item.meta}</span></figcaption></figure>`).join("")}</div></section>` : ""; }).join("")}</div>
     <nav class="case-navigation" aria-label="Navegar entre fragrâncias"><button class="case-nav-button" type="button" data-select-product="${previous.id}"><div><span>Fragrância anterior</span><strong>${previous.id}</strong></div><b>←</b></button><button class="case-nav-button next" type="button" data-select-product="${next.id}"><b>→</b><div><span>Próxima fragrância</span><strong>${next.id}</strong></div></button></nav>
   </section>`;
 }

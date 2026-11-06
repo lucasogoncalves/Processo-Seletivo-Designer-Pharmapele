@@ -93,6 +93,19 @@ h1 { margin-bottom: 28px; font-family: Georgia, serif; font-size: clamp(46px, 5.
 .section-heading > p { max-width: 520px; color: var(--muted); line-height: 1.65; }
 h2 { margin-bottom: 0; font-family: Georgia, serif; font-size: clamp(34px, 4vw, 58px); font-weight: 400; line-height: 1.05; letter-spacing: -.025em; }
 .scope { background: white; }
+.process-story { color: white; background: #052f52; }
+.process-story-heading { display: grid; grid-template-columns: .7fr 1.3fr; gap: 50px; align-items: end; margin-bottom: 54px; }
+.process-story .eyebrow { color: #86cceb; }
+.speech-timeline { position: relative; display: grid; gap: 28px; max-width: 980px; margin: 0 auto; }
+.speech-timeline::before { content: ""; position: absolute; top: 8px; bottom: 8px; left: 50%; width: 1px; background: rgba(255,255,255,.2); }
+.speech-bubble { position: relative; width: calc(50% - 42px); padding: 24px 26px; color: var(--ink); background: white; border: 1px solid rgba(255,255,255,.3); box-shadow: 0 18px 42px rgba(0,15,30,.2); }
+.speech-bubble::after { content: ""; position: absolute; top: 28px; width: 18px; height: 18px; background: white; transform: rotate(45deg); }
+.speech-left { justify-self: start; }
+.speech-left::after { right: -9px; }
+.speech-right { justify-self: end; }
+.speech-right::after { left: -9px; }
+.speech-label, .designer-note span { display: block; margin-bottom: 9px; color: var(--blue); font-size: 8px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.speech-bubble p, .designer-note p { margin: 0; font: 19px/1.5 Georgia, serif; }
 .scope-summary { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .scope-summary div { display: flex; align-items: baseline; gap: 12px; padding: 24px; border-right: 1px solid var(--line); }
 .scope-summary div:last-child { border-right: 0; }
@@ -184,6 +197,14 @@ h2 { margin-bottom: 0; font-family: Georgia, serif; font-size: clamp(34px, 4vw, 
 .reference-extraction {grid-column: 1 / -1;margin: 20px 0px;padding: 15px 15px;color: var(--ink);background: white;border-left: 4px solid var(--accent);border-radius: 0 0 12px 12px;box-shadow: var(--shadow);}
 .reference-extraction span { display: block; margin-bottom: 6px; color: var(--blue); font-size: 8px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .reference-extraction p { margin: 0; color: #526572; font-size: 12px; line-height: 1.6; }
+.designer-note { position: relative; padding: 22px 24px; color: var(--ink); background: white; border: 1px solid rgba(16,40,59,.13); box-shadow: 0 14px 34px rgba(12,38,58,.09); }
+.designer-note::after { content: ""; position: absolute; width: 16px; height: 16px; background: inherit; border-right: inherit; border-bottom: inherit; transform: rotate(45deg); }
+.designer-note-product { grid-column: 1 / -1; max-width: 650px; margin-left: auto; color: var(--product-ink); background: rgba(255,255,255,.88); }
+.designer-note-product::after { right: 42px; bottom: -9px; }
+.designer-note-process { max-width: 720px; margin: 34px 0 42px; border-left: 4px solid var(--blue); }
+.designer-note-process::after { left: 42px; bottom: -9px; }
+.designer-note-technical { max-width: 680px; margin: 0 0 30px auto; border-top: 3px solid var(--product-ink); }
+.designer-note-technical::after { right: 42px; bottom: -9px; }
 .campaign-groups { display: grid; gap: 42px; }
 .campaign-group { min-width: 0; }
 .campaign-group-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; margin: 0 0 16px; padding-bottom: 11px; border-bottom: 1px solid var(--line); }
@@ -242,6 +263,12 @@ footer p { margin: 0; }
   .hero-card:nth-child(3) { left: 45%; top: 23%; }
   .hero-card:nth-child(4) { left: 54%; top: 7%; }
   .section-heading { display: block; }
+  .process-story-heading { display: block; }
+  .process-story-heading h2 { margin-top: 12px; }
+  .speech-timeline::before { left: 10px; }
+  .speech-bubble { width: calc(100% - 34px); justify-self: end; padding: 20px; }
+  .speech-left::after, .speech-right::after { left: -9px; right: auto; }
+  .speech-bubble p, .designer-note p { font-size: 17px; }
   .section-heading > p { margin-top: 18px; }
   .scope-grid { grid-template-columns: repeat(2, 1fr); }
   .campaign-intro { grid-template-columns: 1fr; padding: 28px; }
