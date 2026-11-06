@@ -14,7 +14,7 @@ O briefing solicitava uma campanha coerente e comercial, com presença de produt
 
 Para cada fragrância, o escopo previa KV lifestyle, KV conceitual, post para feed, story, peça social extra e lâmina de varejo A4 frente e verso.
 
-A landing page comercial estava fora do escopo desta primeira etapa. Mesmo assim, criei uma página adicional para apresentar a narrativa do projeto, as referências utilizadas e a linha de raciocínio que conduziu às soluções. Essa página funciona como memorial visual e não substitui a landing page do briefing, que será desenvolvida posteriormente como uma entrega própria.
+O briefing não deixava totalmente claro se os desdobramentos deveriam apresentar a linha como um conjunto ou cada fragrância individualmente. Optei pelo caminho mais completo: desenvolvi os materiais para os quatro produtos e criei uma landing page comercial para cada fragrância, nas versões desktop e mobile. Além disso, construí uma página separada para apresentar a narrativa do projeto, as referências utilizadas e o processo de criação.
 
 ## Pesquisa e direção criativa
 
@@ -39,9 +39,9 @@ Em BREEZE, priorizei movimento, respiração e contato com a paisagem. Em LOVELY
 
 Utilizei um fluxo híbrido que combina pesquisa visual, direção de arte, recursos de inteligência artificial, tratamento de imagem e diagramação manual.
 
-A inteligência artificial foi empregada como ferramenta de exploração fotográfica, composição, atmosfera e construção de cenas. Os resultados foram selecionados criticamente e orientados pelas referências, moodboards e mockups oficiais. Quando necessário, descartei imagens com problemas de anatomia, física, embalagem ou coerência visual e gerei novas soluções com poses mais simples, relações espaciais plausíveis e melhor presença de produto.
+A inteligência artificial foi empregada como ferramenta de exploração fotográfica, composição, atmosfera e construção de cenas. Os resultados foram selecionados criticamente e orientados pelas referências, moodboards e mockups oficiais. Algumas composições chegaram resolvidas logo nas primeiras gerações; outras exigiram intervenção direta no pixel, reconstrução de áreas, ajustes de anatomia, correção de embalagem e tratamento de luz e cor.
 
-Tipografia, hierarquia, textos, elementos gráficos e organização das peças foram tratados como decisões de design. Esse processo acelerou a experimentação sem substituir a curadoria e a consistência entre os formatos.
+Tipografia, hierarquia, textos, elementos gráficos e organização das peças foram tratados como decisões de design. Esse processo acelerou a experimentação sem substituir a curadoria e a consistência entre os formatos. Por esse motivo, nem toda imagem possui um PSD intermediário: quando a composição gerada já atendia à direção proposta, preservei a imagem final e concentrei a edição nos arquivos de diagramação. Os PSDs e AIs existentes correspondem às peças que exigiram montagem, tratamento ou construção editável adicional.
 
 Como os arquivos editáveis oficiais das embalagens não foram disponibilizados em todos os formatos necessários, produzi aproximações de alto contraste para os nomes dos produtos e utilizei vetorização como apoio. Esses elementos estão reunidos em `Recursos Globais/Assets de apoio.ai` e podem ser substituídos pelos arquivos oficiais em uma etapa de produção definitiva.
 
@@ -67,7 +67,7 @@ Concluí sete peças para cada uma das quatro fragrâncias, totalizando 28 entre
 | A4 frente | ✓ | ✓ | ✓ | ✓ |
 | A4 verso | ✓ | ✓ | ✓ | ✓ |
 
-Além das peças solicitadas, produzi quatro mockups das lâminas e a página de apresentação do processo. As exportações para avaliação estão nas pastas `Finalizados` de cada produto, junto aos arquivos editáveis e PDFs disponíveis.
+Além das peças solicitadas, produzi quatro mockups das lâminas, quatro landing pages comerciais e a página de apresentação do processo. As exportações para avaliação estão organizadas por produto, enquanto os editáveis existentes ficam separados dos arquivos finais para facilitar a navegação.
 
 ## Página de apresentação do processo
 
@@ -75,7 +75,7 @@ Criei uma página estática em HTML, CSS e JavaScript para apresentar o trabalho
 
 A interface permite selecionar cada fragrância, visualizar conceito e atmosfera, consultar referências, compreender o que foi extraído da pesquisa, comparar os desdobramentos, ver frente, verso e mockup das lâminas, ampliar as peças e navegar entre os cases em diferentes tamanhos de tela.
 
-Seu objetivo é mostrar como cheguei às soluções e como transformei referências olfativas em sistemas visuais consistentes. A futura landing page comercial terá outro papel: comunicar a linha diretamente ao consumidor e responder ao briefing específico dessa entrega.
+Seu objetivo é mostrar como cheguei às soluções e como transformei referências olfativas em sistemas visuais consistentes. As landing pages comerciais têm outro papel: apresentar cada fragrância diretamente ao consumidor, com benefícios, apelo sensorial, produtos e chamadas para compra.
 
 A apresentação também está publicada em <https://lucasogoncalves.github.io/Processo-Seletivo-Designer-Pharmapele/>.
 

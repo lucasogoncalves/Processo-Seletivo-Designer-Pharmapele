@@ -1,0 +1,24 @@
+PHARMAPELE - CAMPANHA DEO HAIR AND BODY SPLASHES
+
+Estrutura da entrega
+
+00_APRESENTACAO
+Reservada para o PDF de apresentação do projeto, que será incluído na etapa final.
+
+01_FINAIS_PARA_AVALIACAO
+Arquivos organizados por fragrância, com KVs, peças sociais, lâmina A4, landing page e mockup.
+
+02_EDITAVEIS
+PSDs e AIs realmente utilizados no processo, além do código-fonte das quatro landing pages e dos assets necessários para abri-las localmente.
+
+03_APRESENTACAO_WEB
+Link da apresentação online e arquivos principais da versão HTML.
+
+04_DOCUMENTACAO
+Briefing original, documentação do projeto e controle de entregáveis.
+
+Observação sobre os editáveis
+
+O projeto utilizou um fluxo híbrido de direção de arte, inteligência artificial, tratamento de imagem e diagramação. Algumas imagens chegaram resolvidas nas primeiras gerações e foram incorporadas diretamente às composições; outras receberam intervenção no pixel e possuem PSDs intermediários. Por isso, a quantidade de PSDs varia entre as fragrâncias. Os arquivos editáveis incluídos correspondem às etapas que efetivamente exigiram montagem ou tratamento adicional.
+
+As lâminas de varejo possuem AI editável e PDF de impressão com duas páginas, formato A4 e sangria de 3 mm.

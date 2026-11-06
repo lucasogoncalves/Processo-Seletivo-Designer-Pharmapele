@@ -1,0 +1,98 @@
+html, body { overflow-x: hidden; }
+
+@media (max-width: 720px) {
+  .topbar { min-height: 64px; padding: 8px 18px; overflow: hidden; }
+  .brand { position: static; margin: 0; padding: 0; background: transparent; }
+  .brand-name { font-size: 20px; }
+  .brand-label { display: block; font-size: 6px; }
+
+  main > section { padding: 60px 18px; }
+  h2 { font-size: 36px; }
+
+  .hero {
+    min-height: calc(100svh - 64px);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    padding-top: 48px;
+    padding-bottom: 18px;
+  }
+  .hero-copy { position: relative; z-index: 2; }
+  .hero h1 { margin-bottom: 22px; font-size: clamp(42px, 12vw, 50px); line-height: 1; }
+  .hero-intro { margin-bottom: 0; font-size: 15px; line-height: 1.5; }
+  .hero-actions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 24px; }
+  .hero-actions .button { justify-content: center; padding: 14px 10px; font-size: 9px; text-align: center; }
+  .hero-products { flex: 1 0 250px; min-height: 250px; height: min(34svh, 300px); margin-top: auto; }
+  .hero-card { transform: none; }
+  .hero-card:hover { transform: translateY(-5px); }
+  .hero-card.hero-product-bottle { width: 22%; }
+  .hero-card.hero-product-bottle img { height: min(34svh, 290px); }
+  .hero-card:nth-child(1) { left: 0; top: 8%; }
+  .hero-card:nth-child(2) { left: 25%; top: 0; }
+  .hero-card:nth-child(3) { left: 50%; top: 9%; }
+  .hero-card:nth-child(4) { left: 75%; top: 2%; }
+
+  .process-story-heading { margin-bottom: 36px; }
+  .speech-timeline { gap: 18px; }
+  .speech-timeline::before { left: 8px; }
+  .speech-bubble { width: calc(100% - 26px); padding: 18px; }
+  .speech-bubble p, .designer-note p { font-size: 16px; line-height: 1.45; }
+
+  .section-heading { margin-bottom: 32px; }
+  .section-heading > p { margin-top: 14px; line-height: 1.5; }
+  .scope-summary div { padding: 18px 4px; }
+  .scope-summary strong { font-size: 32px; }
+
+  .workspace { padding-right: 12px; padding-left: 12px; }
+  .workspace > .section-heading { padding: 0 6px; }
+  .campaign-intro { gap: 28px; margin: 0; padding: 20px 16px 24px; }
+  .campaign-tabs { width: calc(100% + 32px); margin: -20px -16px 0; }
+  .case-tab { min-height: 56px; padding: 12px 4px; font-size: 11px; letter-spacing: .06em; }
+  .campaign-intro h3 { margin-bottom: 10px; font-size: 38px; line-height: 1; }
+  .campaign-meta { gap: 14px; padding-top: 18px; border-top: 1px solid color-mix(in srgb, var(--product-ink) 22%, transparent); }
+  .designer-note { padding: 18px; }
+  .designer-note-product { margin-top: -4px; }
+  .reference-block { padding-top: 20px; }
+  .reference-heading { display: block; }
+  .reference-heading span { display: block; margin-top: 6px; }
+  .reference-gallery { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 78%; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; }
+  .reference-gallery figure { scroll-snap-align: start; }
+  .reference-extraction { margin: 12px 0 28px; padding: 18px; }
+  .reference-extraction p { font-size: 16px; line-height: 1.45; }
+  .designer-note-technical { margin-bottom: 24px; }
+
+  .campaign-groups { gap: 30px; }
+  .campaign-group-heading { align-items: flex-start; }
+  .campaign-group-heading span { max-width: 52%; text-align: right; }
+  .campaign-group-grid { grid-template-columns: 1fr; gap: 8px; }
+  .campaign-item .art-card { width: 100%; }
+  .campaign-item .art-card img,
+  .campaign-item .art-card.story img { width: 100%; height: auto; max-height: none; }
+
+  .landing-page-callout { min-height: 0; margin: 36px 0 0; }
+  .landing-page-preview, .landing-page-preview img { min-height: 240px; height: 240px; }
+  .landing-page-copy { padding: 28px 20px; }
+  .landing-page-copy h4 { font-size: 30px; }
+  .landing-page-copy p { margin-bottom: 22px; }
+  .landing-page-link { width: 100%; justify-content: space-between; }
+
+  .case-navigation { gap: 8px; margin-top: 28px; }
+  .case-nav-button { padding: 14px 12px; }
+  .case-nav-button strong { font-size: 17px; }
+
+  .lightbox { width: 100vw; height: 100svh; }
+  .lightbox-toolbar { min-height: 78px; padding: 14px 16px; }
+  .lightbox-stage { height: calc(100svh - 78px); padding: 12px 48px; }
+  .lightbox-nav { width: 38px; height: 38px; }
+  .lightbox-nav.previous { left: 6px; }
+  .lightbox-nav.next { right: 6px; }
+
+  footer { padding: 24px 18px; }
+}
+
+@media (max-width: 380px) {
+  .hero-actions { grid-template-columns: 1fr; }
+  .case-tab { font-size: 10px; }
+  .case-nav-button span { display: none; }
+}

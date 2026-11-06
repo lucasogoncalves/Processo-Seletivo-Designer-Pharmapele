@@ -1,0 +1,5 @@
+Esta pasta reúne apenas os editáveis que fizeram parte do processo real.
+
+Nem toda imagem possui PSD intermediário. Em algumas composições, a geração por IA já chegou adequada à direção proposta; em outras, foi necessário reconstruir áreas, corrigir anatomia, ajustar embalagens e tratar luz e cor no pixel.
+
+Os AIs das lâminas são os arquivos-mestre de diagramação para impressão. A pasta LANDING_PAGES preserva a estrutura relativa dos arquivos para que as quatro páginas possam ser abertas localmente.
