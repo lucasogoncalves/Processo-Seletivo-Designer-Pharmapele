@@ -81,6 +81,8 @@ h1 { margin-bottom: 28px; font-family: Georgia, serif; font-size: clamp(46px, 5.
 }
 .hero-card:hover { transform: rotate(0) translateY(-10px); z-index: 5; }
 .hero-card img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
+.hero-card.hero-product-bottle { width: 18%; overflow: visible; background: transparent; border: 0; box-shadow: none; }
+.hero-card.hero-product-bottle img { width: 100%; height: min(52vw, 480px); aspect-ratio: auto; object-fit: contain; }
 .hero-card:nth-child(1) { left: 0; top: 12%; --rotate: -5deg; }
 .hero-card:nth-child(2) { left: 24%; top: 2%; --rotate: 2.5deg; }
 .hero-card:nth-child(3) { left: 47%; top: 16%; --rotate: -2deg; }
@@ -233,6 +235,8 @@ footer p { margin: 0; }
   .hero { min-height: auto; }
   .hero-products { min-height: 400px; height: 100vw; }
   .hero-card { width: 46%; }
+  .hero-card.hero-product-bottle { width: 21%; }
+  .hero-card.hero-product-bottle img { height: min(74vw, 330px); }
   .hero-card:nth-child(1) { left: 0; }
   .hero-card:nth-child(2) { left: 25%; }
   .hero-card:nth-child(3) { left: 45%; top: 23%; }

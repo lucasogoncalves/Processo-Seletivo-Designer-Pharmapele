@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 595.3 841.9">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #cad7bd;
+      }
+
+      .cls-4 {
+        letter-spacing: .2em;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-2, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-3, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30 {
+        isolation: isolate;
+      }
+
+      .cls-4, .cls-5, .cls-7, .cls-31, .cls-13, .cls-18, .cls-21, .cls-22, .cls-23 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-6, .cls-7, .cls-2, .cls-3, .cls-27, .cls-29 {
+        font-size: 6px;
+      }
+
+      .cls-4, .cls-13, .cls-14, .cls-2, .cls-16, .cls-18, .cls-19, .cls-20, .cls-3, .cls-25, .cls-28, .cls-30 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        font-size: 18px;
+      }
+
+      .cls-5, .cls-15, .cls-21, .cls-22, .cls-26 {
+        font-family: Georgia, Georgia;
+      }
+
+      .cls-6 {
+        letter-spacing: .2em;
+      }
+
+      .cls-6, .cls-8, .cls-11, .cls-12, .cls-17, .cls-27 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-6, .cls-8, .cls-12, .cls-27 {
+        fill: #65736f;
+      }
+
+      .cls-32 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-33 {
+        fill: #eef2e8;
+      }
+
+      .cls-34 {
+        fill: #f0eadc;
+      }
+
+      .cls-7, .cls-9, .cls-23, .cls-24, .cls-29 {
+        font-family: Georgia-Italic, Georgia;
+        font-style: italic;
+      }
+
+      .cls-8, .cls-13, .cls-16, .cls-17, .cls-19, .cls-20 {
+        font-size: 6.7px;
+      }
+
+      .cls-9 {
+        font-size: 11.2px;
+      }
+
+      .cls-9, .cls-16, .cls-19, .cls-20, .cls-24 {
+        fill: #d6a72f;
+      }
+
+      .cls-35 {
+        fill: none;
+        stroke: #194b45;
+        stroke-miterlimit: 3;
+        stroke-opacity: .3;
+        stroke-width: .7px;
+      }
+
+      .cls-11 {
+        fill: #f5d77e;
+        letter-spacing: 0em;
+      }
+
+      .cls-11, .cls-28 {
+        font-size: 43.5px;
+      }
+
+      .cls-12 {
+        font-size: 8.2px;
+      }
+
+      .cls-13 {
+        letter-spacing: .3em;
+      }
+
+      .cls-14 {
+        letter-spacing: .2em;
+      }
+
+      .cls-14, .cls-15, .cls-25, .cls-26, .cls-28, .cls-29, .cls-36, .cls-30 {
+        fill: #194b45;
+      }
+
+      .cls-14, .cls-21, .cls-26 {
+        font-size: 13.5px;
+      }
+
+      .cls-15 {
+        font-size: 20.2px;
+      }
+
+      .cls-37 {
+        fill: #005095;
+      }
+
+      .cls-2 {
+        letter-spacing: .2em;
+      }
+
+      .cls-16 {
+        letter-spacing: .2em;
+      }
+
+      .cls-17 {
+        fill: #eef3eb;
+      }
+
+      .cls-18, .cls-25 {
+        font-size: 6.4px;
+      }
+
+      .cls-19 {
+        letter-spacing: .2em;
+      }
+
+      .cls-20 {
+        letter-spacing: .2em;
+      }
+
+      .cls-38 {
+        fill: #faf7f0;
+      }
+
+      .cls-22 {
+        font-size: 16.5px;
+      }
+
+      .cls-23 {
+        font-size: 12px;
+      }
+
+      .cls-24 {
+        font-size: 12.7px;
+      }
+
+      .cls-3 {
+        letter-spacing: .3em;
+      }
+
+      .cls-39 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-28 {
+        opacity: 0;
+      }
+
+      .cls-30 {
+        font-size: 7.1px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.1" y1="841.4" x2="2.1" y2="841.4" gradientTransform="translate(0 217114.7) scale(595.2 -257.9)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#194b45" stop-opacity="1"/>
+      <stop offset=".5" stop-color="#194b45" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#194b45" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.6" y1="841.4" x2="2.6" y2="841.4" gradientTransform="translate(198.7 441429.9) scale(396.6 -524)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#f6f1e7"/>
+    </linearGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <rect class="cls-38" x="643.3" y="0" width="595.2" height="841.9"/>
+      <image class="cls-10" width="1600" height="693" transform="translate(643.3 0) scale(.4)" xlink:href="breeze-hero.jpg"/>
+      <rect class="cls-39" x="643.3" y="0" width="595.2" height="257.9"/>
+      <text id="hero-brand" class="cls-22" transform="translate(680.1 36.7)"><tspan x="0" y="0">Pharmapele</tspan></text>
+      <text id="hero-category" class="cls-3" transform="translate(680.1 66.7)"><tspan x="0" y="0">DEO HAIR AND BODY SPLASH</tspan></text>
+      <text id="hero-title" class="cls-11" transform="translate(680.1 105)"><tspan x="0" y="0">BREEZE</tspan></text>
+      <text id="hero-tagline" class="cls-13" transform="translate(680.1 131.2)"><tspan x="0" y="0">LEVE &amp; CONFIANTE</tspan></text>
+      <g id="hero-paragraph" class="cls-10">
+        <text class="cls-23" transform="translate(680.1 159.7)"><tspan x="0" y="0">Um sopro de liberdade. Fresca e</tspan></text>
+        <text class="cls-23" transform="translate(680.1 176.2)"><tspan x="0" y="0">revigorante, equilibra leveza e presença</tspan></text>
+        <text class="cls-23" transform="translate(680.1 192.7)"><tspan x="0" y="0">em uma fragrância que convida a respirar</tspan></text>
+        <text class="cls-23" transform="translate(680.1 209.2)"><tspan x="0" y="0">novos ares.</tspan></text>
+      </g>
+      <rect class="cls-33" x="643.3" y="257.9" width="198.7" height="524"/>
+      <rect class="cls-32" x="842" y="257.9" width="396.6" height="524"/>
+      <circle class="cls-1" cx="743" cy="422.1" r="97.5"/>
+      <text class="cls-28" transform="translate(676.3 553.3) rotate(-90)"><tspan x="0" y="0">BREEZE</tspan></text>
+      <image class="cls-10" width="1053" height="4800" transform="translate(696.2 265.4) scale(0)" xlink:href="breeze-produto.png"/>
+      <line class="cls-35" x1="673.3" y1="700.2" x2="812.7" y2="700.2"/>
+      <text class="cls-14" transform="translate(673.3 724.9)"><tspan x="0" y="0">150 ml</tspan></text>
+      <text class="cls-6" transform="translate(673.3 742.9)"><tspan x="0" y="0">PARA CORPO E CABELO</tspan></text>
+      <text class="cls-19" transform="translate(867.5 289.4)"><tspan x="0" y="0">FRESCOR EM MOVIMENTO</tspan></text>
+      <g id="opening-title" class="cls-10">
+        <text class="cls-15" transform="translate(867.5 314.9)"><tspan x="0" y="0">Uma fragrância para respirar</tspan></text>
+        <text class="cls-15" transform="translate(867.5 336.6)"><tspan x="0" y="0">novos ares.</tspan></text>
+      </g>
+      <g id="opening-paragraph" class="cls-10">
+        <text class="cls-12" transform="translate(867.5 356.8)"><tspan x="0" y="0">Leve para acompanhar a rotina, marcante na medida certa para deixar uma</tspan></text>
+        <text class="cls-12" transform="translate(867.5 368.1)"><tspan x="0" y="0">assinatura fresca e confiante.</tspan></text>
+      </g>
+      <g>
+        <rect class="cls-31" x="867.5" y="379.3" width="108.7" height="90"/>
+        <rect class="cls-31" x="984.4" y="379.3" width="108.7" height="90"/>
+        <rect class="cls-31" x="1101.4" y="379.3" width="108.7" height="90"/>
+        <text class="cls-24" transform="translate(878 398.1)"><tspan x="0" y="0">01</tspan></text>
+        <text class="cls-30" transform="translate(878 416.8)"><tspan x="0" y="0">CORPO + CABELO</tspan></text>
+        <g id="benefit-01-body" class="cls-10">
+          <text class="cls-8" transform="translate(878 433.3)"><tspan x="0" y="0">Perfumação prática em dois</tspan></text>
+          <text class="cls-8" transform="translate(878 443.1)"><tspan x="0" y="0">gestos de autocuidado.</tspan></text>
+        </g>
+        <text class="cls-24" transform="translate(994.9 398.1)"><tspan x="0" y="0">02</tspan></text>
+        <text class="cls-30" transform="translate(994.9 416.8)"><tspan x="0" y="0">LEVE E VERSÁTIL</tspan></text>
+        <g id="benefit-02-body" class="cls-10">
+          <text class="cls-8" transform="translate(994.9 433.3)"><tspan x="0" y="0">Uma presença fresca para</tspan></text>
+          <text class="cls-8" transform="translate(994.9 443.1)"><tspan x="0" y="0">diferentes momentos do dia.</tspan></text>
+        </g>
+        <text class="cls-24" transform="translate(1111.9 398.1)"><tspan x="0" y="0">03</tspan></text>
+        <text class="cls-30" transform="translate(1111.9 416.8)"><tspan x="0" y="0">SENSORIAL</tspan></text>
+        <g id="benefit-03-body" class="cls-10">
+          <text class="cls-8" transform="translate(1111.9 433.3)"><tspan x="0" y="0">Cítrica, floral e amadeirada,</tspan></text>
+          <text class="cls-8" transform="translate(1111.9 443.1)"><tspan x="0" y="0">com sensação de renovação.</tspan></text>
+        </g>
+      </g>
+      <text class="cls-16" transform="translate(867.5 494)"><tspan x="0" y="0">UNIVERSO OLFATIVO</tspan></text>
+      <text class="cls-26" transform="translate(1096.8 494)"><tspan x="0" y="0">Notas em destaque</tspan></text>
+      <g>
+        <rect class="cls-1" x="867.5" y="506.8" width="81.7" height="41.2"/>
+        <g id="note-1" class="cls-10">
+          <text class="cls-25" transform="translate(884.8 524)"><tspan x="0" y="0">Limão-siciliano</tspan></text>
+          <text class="cls-29" transform="translate(895.6 536)"><tspan x="0" y="0">luminoso</tspan></text>
+        </g>
+        <rect class="cls-36" x="954.4" y="506.8" width="81.7" height="41.2"/>
+        <g id="note-2" class="cls-10">
+          <text class="cls-18" transform="translate(983.9 524)"><tspan x="0" y="0">Hortelã</tspan></text>
+          <text class="cls-7" transform="translate(979.7 536)"><tspan x="0" y="0">refrescante</tspan></text>
+        </g>
+        <rect class="cls-1" x="1041.4" y="506.8" width="81.7" height="41.2"/>
+        <g id="note-3" class="cls-10">
+          <text class="cls-25" transform="translate(1071.4 524)"><tspan x="0" y="0">Peônia</tspan></text>
+          <text class="cls-29" transform="translate(1070.5 536)"><tspan x="0" y="0">delicada</tspan></text>
+        </g>
+        <rect class="cls-36" x="1128.4" y="506.8" width="81.7" height="41.2"/>
+        <g id="note-4" class="cls-10">
+          <text class="cls-18" transform="translate(1159.6 524)"><tspan x="0" y="0">Cedro</tspan></text>
+          <text class="cls-7" transform="translate(1152.3 536)"><tspan x="0" y="0">amadeirado</tspan></text>
+        </g>
+      </g>
+      <rect class="cls-34" x="867.5" y="569.8" width="342.6" height="81"/>
+      <text class="cls-20" transform="translate(879.5 588.5)"><tspan x="0" y="0">RITUAL BREEZE</tspan></text>
+      <g id="ritual-title" class="cls-10">
+        <text class="cls-26" transform="translate(879.5 608)"><tspan x="0" y="0">Perfume do seu</tspan></text>
+        <text class="cls-26" transform="translate(879.5 623)"><tspan x="0" y="0">jeito</tspan></text>
+      </g>
+      <g id="ritual-01" class="cls-10">
+        <text class="cls-9" transform="translate(990.4 588.5)"><tspan x="0" y="0">01</tspan></text>
+        <text class="cls-25" transform="translate(990.4 603.5)"><tspan x="0" y="0">NO CORPO</tspan></text>
+        <text class="cls-27" transform="translate(990.4 615.5)"><tspan x="0" y="0">Borrife nos pontos</tspan></text>
+        <text class="cls-27" transform="translate(990.4 624.5)"><tspan x="0" y="0">desejados.</tspan></text>
+      </g>
+      <g id="ritual-02" class="cls-10">
+        <text class="cls-9" transform="translate(1062.4 588.5)"><tspan x="0" y="0">02</tspan></text>
+        <text class="cls-25" transform="translate(1062.4 603.5)"><tspan x="0" y="0">NOS CABELOS</tspan></text>
+        <text class="cls-27" transform="translate(1062.4 615.5)"><tspan x="0" y="0">Aplique suavemente</tspan></text>
+        <text class="cls-27" transform="translate(1062.4 624.5)"><tspan x="0" y="0">sobre os fios.</tspan></text>
+      </g>
+      <g id="ritual-03" class="cls-10">
+        <text class="cls-9" transform="translate(1135.9 588.5)"><tspan x="0" y="0">03</tspan></text>
+        <text class="cls-25" transform="translate(1135.9 603.5)"><tspan x="0" y="0">NA ROTINA</tspan></text>
+        <text class="cls-27" transform="translate(1135.9 615.5)"><tspan x="0" y="0">Renove sempre que</tspan></text>
+        <text class="cls-27" transform="translate(1135.9 624.5)"><tspan x="0" y="0">desejar.</tspan></text>
+      </g>
+      <rect class="cls-36" x="867.5" y="671" width="342.6" height="84"/>
+      <text class="cls-2" transform="translate(881 691.2)"><tspan x="0" y="0">A SENSAÇÃO BREEZE</tspan></text>
+      <g id="signature-title" class="cls-10">
+        <text class="cls-21" transform="translate(881 711.4)"><tspan x="0" y="0">Pureza, renovação</tspan></text>
+        <text class="cls-21" transform="translate(881 726.4)"><tspan x="0" y="0">e novos ares.</tspan></text>
+      </g>
+      <g id="signature-paragraph" class="cls-10">
+        <text class="cls-17" transform="translate(1012.9 696.5)"><tspan x="0" y="0">Uma composição luminosa que abre com o frescor cítrico do</tspan></text>
+        <text class="cls-17" transform="translate(1012.9 706.9)"><tspan x="0" y="0">limão-siciliano e da hortelã, encontra a delicadeza da peônia</tspan></text>
+        <text class="cls-17" transform="translate(1012.9 717.4)"><tspan x="0" y="0">e repousa sobre a elegância amadeirada do cedro.</tspan></text>
+      </g>
+      <rect class="cls-37" x="643.3" y="781.9" width="595.2" height="60"/>
+      <text class="cls-5" transform="translate(680.1 818.6)"><tspan x="0" y="0">Pharmapele</tspan></text>
+      <text class="cls-4" transform="translate(1076.4 818.6)"><tspan x="0" y="0">BREEZE · LEVE &amp; CONFIANTE</tspan></text>
+      <g id="_x30_6-a4-frente-2480x3508.psd">
+        <image id="_x30_6-a4-frente-2480x3508" width="2480" height="3508" transform="scale(.2)" xlink:href="breeze-lamina-varejo-editavel-1.png"/>
+      </g>
+    </g>
+  </g>
+</svg>
